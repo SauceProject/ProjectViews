@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+/*
+--------THEME------------ 
+McLaren =>font
+#F6EE99 => gold
+#143444 =>background
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; 
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+
+:root{
+    --gold:#F6EE99;
+    --background:#143444;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 4rem;
+    color: #143444;
+    margin-bottom: 1rem;
+}
+h2{
+    background-color: #F6EE99;
+    color:  #143444;
+    border-radius: 3rem;
+
+}
+h3{
+    font-size: 2.5rem;
+    color:  #143444;
+
+}
+
+p{
+    color: gray;
+    font-size: 1.5rem;
+}
+hr{
+    animation: widen 2s infinite both;
+    margin: 1rem auto;
+    height: 0.2rem;
+    background-color: #143444;
+}
+/*Navbar*/
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: var(--background);
+    padding:1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    font-size: 0.5rem;
+}
+
+header .logo{
+    color:var(--gold);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color:var(--gold);
+    font-size: 3rem;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:#eee;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:var(--background);
+    background: var(--gold);
+}
+header .icons .fa-heart:hover{
+    
+    background-color: var(--gold);
+    color:red;
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:#143444;
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover{
+    color:#fff;
+    background: var(--gold);
+    transform: rotate(360deg);
+    color: #143444;
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+
+
+
+#search-form{
+    position: fixed;
+    top:-110%; left:0; 
+    height:100%; width:100%;
+    z-index: 1004;
+    background:rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+}
+
+#search-form.active{
+    top:0;
+}
+
+#search-form #search-box{
+    width:50rem;
+    border-bottom: .1rem solid #fff;
+    padding:1rem 0;
+    color:#fff;
+    font-size: 3rem;
+    text-transform: none;
+    background:none;
+}
+
+#search-form #search-box::placeholder{
+    color:#eee;
+}
+
+#search-form #search-box::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+#search-form label{
+    color:#fff;
+    cursor:pointer;
+    font-size: 3rem;
+}
+
+#search-form label:hover{
+    color:var(--gold);
+}
+
+#search-form #close{
+    position: absolute;
+    color:#fff;
+    cursor: pointer;
+    top: 2rem; right:3rem;
+    font-size: 5rem;
+}
+
+/***** HEADER**********/
+main{
+    margin-top: 1%;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+/***********Details Section************/
+.details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10%;
+
+
+}
+#productDetails{
+    line-height: 3.5rem;
+    text-align: center;
+
+}
+#productImg{
+    border: rgb(190, 189, 189) 1px solid;
+    padding: 1.5rem;
+
+}
+
+.addCart{
+    background-color: #143444;
+    color: #F6EE99;
+    width: 50%;
+    padding: 1rem;
+    font-size: 2rem;
+    border: #143444;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+ 
+/**MAIN SECTION**/
+.container{
+    width: 90%;
+    margin: 3% auto;
+   
+}
+.menu-row{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap:3rem
+
+}
+.head-prod{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h5{
+    font-size: 1.8rem;
+    color: #143444;
+}
+.col-1{
+    padding: 1rem;
+    background-color: #F6EE99;
+}
+.check{
+    padding: 1rem;
+}
+.check label{
+    font-size: 1.5rem;
+    color: #143444;
+}
+
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row img{
+    width: 100%;
+    height: 40vh;
+}
+.row h2{
+    padding: 1%;
+}
+.card{
+    border: #979797 1px solid;
+    box-shadow: 2px 2px 6px #979797;
+    margin: 1%;
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.controls {
+    display: inline-block;
+    font-size: 18px;
+    color: #F6EE99;
+    background-color: #143444;
+    width: 100%;
+    margin-top: 4%;
+    
+}
+.controls i {
+    margin: 4%;
+    cursor: pointer;
+    text-align: center;
+}
+/********************************************/
+
+.search{
+    width:30%;
+    border: 1px grey solid;
+    border-radius: 2rem;
+    outline: none;
+    height: 5vh;
+    margin-left: 1%;
+    padding: 1%;
+}
+.seIcon{
+padding: 0.7%; 
+margin-left: -4%;
+color: black;
+}
+.seAnimate{
+    animation: widen 1s forwards;
+}
+
+@keyframes widen {
+    from{width:10%}
+    to{width:40%}
+}
+/*****************************************/
+footer{
+    background-color: #143444;
+    padding:2rem 9%;
+    
+
+
+}
+footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    
+}
+
+footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 2.5rem;
+    color:var(--gold);
+}
+
+footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
+
+footer .box-container .box a:hover{
+    color:var(--gold);
+    text-decoration: underline;
+}
+
+footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 1.5rem;
+    color:var(--gold);
+    
+}
+
+footer .credit span{
+    color:var(--gold);
+}

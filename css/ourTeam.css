@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --gold:#F6EE99;
+    --background:#143444;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; 
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+    background-color: #143444;
+}
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: var(--background);
+    padding:1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo{
+    color:var(--gold);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color:var(--gold);
+    font-size: 3rem;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:#eee;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:var(--background);
+    background: var(--gold);
+}
+header .icons .fa-heart:hover{
+    
+    background-color: var(--gold);
+    color:red;
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:#143444;
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover{
+    color:#fff;
+    background: var(--gold);
+    transform: rotate(360deg);
+    color: #143444;
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+#search-form{
+    position: fixed;
+    top:-110%; left:0; 
+    height:100%; width:100%;
+    z-index: 1004;
+    background:rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+}
+
+#search-form.active{
+    top:0;
+}
+
+#search-form #search-box{
+    width:50rem;
+    border-bottom: .1rem solid #fff;
+    padding:1rem 0;
+    color:#fff;
+    font-size: 3rem;
+    text-transform: none;
+    background:none;
+}
+
+#search-form #search-box::placeholder{
+    color:#eee;
+}
+
+#search-form #search-box::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+#search-form label{
+    color:#fff;
+    cursor:pointer;
+    font-size: 3rem;
+}
+
+#search-form label:hover{
+    color:var(--gold);
+}
+
+#search-form #close{
+    position: absolute;
+    color:#fff;
+    cursor: pointer;
+    top: 2rem; right:3rem;
+    font-size: 5rem;
+}
+.pricing {
+    width: 100%;
+     background-color: #143444; 
+    margin-top: 5%;
+    height: 150vh;
+}
+
+.price {
+    width: 1200px;
+    margin: auto;
+    padding: 50px 0px;
+    height: 600px;
+}
+
+.price h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    color: var(--gold);
+}
+
+.price p {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pricing .price-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing .price-box div {
+    width: 20%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pricing .price-box div:hover {
+    margin-top: 70px;
+}
+
+.pricing .price-box div h2 {
+    font-size: 30px;
+}
+
+.pricing .price-box div h3 {
+    font-size: 20px;
+    color: #143444;
+    padding-top: 20px;
+}
+
+.pricing .price-box div h5 {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.pricing .price-box div .btn {
+    width: 140px;
+    height: 45px;
+    background-color: #143444;
+    border-radius: 25px;
+    border: 2px solid #F6EE99;
+    color: #F6EE99;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.pricing .price-box div .btn:hover {
+    background-color: gray;
+}
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 35px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+  
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #143444;
+    color: #F6EE99;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #143444;
+    color: #F6EE99;
+  }
+
+
+  .fa-linkedin {
+    background: #143444;
+    color: #F6EE99;
+  }
+
+
+
+  .fa-instagram {
+    background: #143444;
+    color: #F6EE99;
+  }
+
+  .footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 2.5rem;
+    color:var(--gold);
+    text-align: center;
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+.footer .box-container .box a:hover{
+    color:var(--gold);
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 1.5rem;
+    color:var(--gold);
+   
+}
+
+.footer .credit span{
+    color:var(--gold);
+}
+
+
+/* media queries  */
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    header{
+        padding:1rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+
+}
+
+@media (max-width:768px){
+
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left:0; right:0;
+        background:#fff;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding:1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        display: block;
+        padding:1.5rem;
+        margin:1rem;
+        font-size: 2rem;
+        background:var(--background);
+    }
+
+    #search-form #search-box{
+        width:90%;
+        margin:0 1rem;
+    }
+
+    .home .home-slider .slide .content h3{
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .dishes .box-container .box img{
+        height:auto;
+        width: 100%;
+    }
+
+    .order form .inputBox .input{
+        width:100%;
+    }
+
+}

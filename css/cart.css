@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+
+
+  }
+
+  .container{
+    width: 90%;
+    margin: 5% auto;
+}
+:root{
+    --gold:#F6EE99;
+    --background:#143444;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+h3{
+    font-size: 2.5rem;
+    color:  #143444;
+
+}
+p{
+    color: gray;
+    font-size: 1.5rem;
+}
+/*****NAV BAR*****/
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: var(--background);
+    padding:1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo{
+    color:var(--gold);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color:var(--gold);
+    font-size: 3rem;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:#eee;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:var(--background);
+    background: var(--gold);
+}
+header .icons .fa-heart:hover{
+    
+    background-color: var(--gold);
+    color:red;
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:#143444;
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover{
+    color:#fff;
+    background: var(--gold);
+    transform: rotate(360deg);
+    color: #143444;
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+/** MAIN**/
+
+.order-btn{
+    background-color: #143444;
+    color: #F6EE99;
+    padding: 1rem;
+    font-size: 2rem;
+    border: #143444;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1%;
+}
+main{
+    height: 100vh;
+    overflow: auto;
+}
+.card
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 4px #979797;
+    width: 80%;
+    height: 15vh;
+    color: #143444;
+    margin:6% auto;
+}
+.card img{
+    width: 25%;
+    height: 100%;
+}
+.card i{
+    color: #143444;
+    cursor: pointer;
+    font-size: 2rem;
+}
+/**********footer*******/
+footer{
+    background-color: #143444;
+    padding:2rem 9%;
+}
+footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    
+}
+
+footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 2.5rem;
+    color:var(--gold);
+}
+
+footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
+
+footer .box-container .box a:hover{
+    color:var(--gold);
+    text-decoration: underline;
+}
+
+footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 1.5rem;
+    color:var(--gold);
+    
+}
+
+footer .credit span{
+    color:var(--gold);
+}
