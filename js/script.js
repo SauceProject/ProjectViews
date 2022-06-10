@@ -6,7 +6,7 @@ menu.onclick = () =>{
   navbar.classList.toggle('active');
 }
 
-
+//Comment
 
 document.querySelector('#search-icon').onclick = () =>{
   document.querySelector('#search-form').classList.toggle('active');
