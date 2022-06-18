@@ -1,0 +1,14 @@
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\bin\Debug\net6.0\ITI.Sauce.Models.deps.json
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\bin\Debug\net6.0\ITI.Sauce.Models.runtimeconfig.json
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\bin\Debug\net6.0\ITI.Sauce.Models.dll
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\bin\Debug\net6.0\ITI.Sauce.Models.pdb
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.csproj.AssemblyReference.cache
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.AssemblyInfoInputs.cache
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.AssemblyInfo.cs
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.csproj.CoreCompileInputs.cache
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.dll
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\refint\ITI.Sauce.Models.dll
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.pdb
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ITI.Sauce.Models.genruntimeconfig.cache
+D:\DotNet\final project\ITI.Sauce.Models\ITI.Sauce.Models\obj\Debug\net6.0\ref\ITI.Sauce.Models.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.Sauce.Models", "ITI.Sauce.Models\ITI.Sauce.Models.csproj", "{88C23157-2FDC-4D1A-B693-CA10CCBC4129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C23157-2FDC-4D1A-B693-CA10CCBC4129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C23157-2FDC-4D1A-B693-CA10CCBC4129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C23157-2FDC-4D1A-B693-CA10CCBC4129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C23157-2FDC-4D1A-B693-CA10CCBC4129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8F1788E-00DE-4E19-ABE9-5D5D98CB335F}
+	EndGlobalSection
+EndGlobal

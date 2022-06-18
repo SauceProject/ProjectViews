@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendor Dashboard</title>
+    <link rel="stylesheet" href="./css/vendor.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <aside>
+      <ul class="sidebar">
+        <li>
+          <a href="#" class="logo"><i class="fas fa-utensils"></i>Sauce</a>
+        </li>
+        <li><a href="#">View Orders </a></li>
+        <li><a href="#">Add Recipes </a></li>
+        <li><a href="#">View Recipes </a></li>
+        <li><a href="#">View Reviews </a></li>
+      </ul>
+    </aside>
+    <main>
+      <nav>
+        <input type="text" placeholder="Search..." />
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="./vendor_profile.html">
+          <img src="./images/pic.png" id="restaurant-pic" alt="restaurant-pic" />
+        </a>
+        <span id="restaurant-name">Restaurant</span>
+      </nav>
+      <section class="container">
+        <!---------------STATISTICS------------------->
+        <div class="stat">
+          <h2 class="head">Restaurant Overview</h2>
+          <hr />
+          <div class="flexbox">
+            <div class="stat-card one">
+              <h3><i class="fa-solid fa-chart-line"></i></h3>
+              <p>100</p>
+              <p>Orders</p>
+            </div>
+
+            <div class="stat-card two">
+              <h3><i class="fa-solid fa-chart-line"></i></h3>
+              <p>100</p>
+              <p>Orders</p>
+            </div>
+
+            <div class="stat-card three">
+              <h3><i class="fa-solid fa-chart-line"></i></h3>
+              <p>100</p>
+              <p>Orders</p>
+            </div>
+          </div>
+        </div>
+
+        <!--ORDERS LIST-->
+        <div class="head-order">
+          <h2>Order List</h2>
+          <span>27-5-2022</span>
+        </div>
+        <div class="orders">
+          <div>
+            <h3>Order #1</h3>
+            <h4>Title Lorem ipsum dolor sit.</h4>
+            <p>Price 15$</p>
+          </div>
+          <div>
+            <h3>Order #1</h3>
+            <h4>Title Lorem ipsum dolor sit.</h4>
+            <p>Price 15$</p>
+          </div>
+          <div>
+            <h3>Order #1</h3>
+            <h4>Title Lorem ipsum dolor sit.</h4>
+            <p>Price 15$</p>
+          </div>
+        </div>
+
+        <!------------POPULAR DISHES------------->
+        <div class="top-section">
+          <h2 class="head">Popular Dishes</h2>
+          <hr />
+          <div class="flexbox">
+            <div class="card">
+              <img src="./images/food.jpg" alt="food" />
+              <h3>Title Lorem, ipsum dolor.</h3>
+              <h4>5 <i class="fa-solid fa-star"></i></h4>
+            </div>
+            <div class="card">
+              <img src="./images/food.jpg" alt="food" />
+              <h3>Title Lorem, ipsum dolor.</h3>
+              <h4>5 <i class="fa-solid fa-star"></i></h4>
+            </div>
+            <div class="card">
+              <img src="./images/food.jpg" alt="food" />
+              <h3>Title Lorem, ipsum dolor.</h3>
+              <h4>4.8 <i class="fa-solid fa-star"></i></h4>
+            </div>
+          </div>
+        </div>
+
+        <!------------Top Reviews------------->
+        <div class="top-section">
+          <h2 class="head">Top Reviews</h2>
+          <hr />
+          <div class="flexbox">
+            <div class="card">
+              <div class="user-info"><img src="./images/user.jpg" alt="user-pic"><h3>User Name</h3></div>
+              <h4>5 <i class="fa-solid fa-star"></i></h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                voluptate facere vero eos fuga nesciunt quis commodi beatae
+                sequi modi provident sapiente mollitia veniam tempora
+                repudiandae maxime, hic rem rerum.
+              </p>
+            </div>
+
+            <div class="card">
+                <div class="user-info"><img src="./images/user.jpg" alt="user-pic"><h3>User Name</h3></div>
+              <h4>4 <i class="fa-solid fa-star"></i></h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                voluptate facere vero eos fuga nesciunt quis commodi beatae
+                sequi modi provident sapiente mollitia veniam tempora
+                repudiandae maxime, hic rem rerum.
+              </p>
+            </div>
+
+            <div class="card">
+                <div class="user-info"><img src="./images/user.jpg" alt="user-pic"><h3>User Name</h3></div>
+              <h4>5 <i class="fa-solid fa-star"></i></h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                voluptate facere vero eos fuga nesciunt quis commodi beatae
+                sequi modi provident sapiente mollitia veniam tempora
+                repudiandae maxime, hic rem rerum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

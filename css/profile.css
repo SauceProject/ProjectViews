@@ -1,0 +1,13 @@
+.data {
+   
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 2px 2px 8px #c1b9b9;
+    width: 60%;
+    border-radius: 1rem
+}
+.data img{
+    width: 5rem ;
+    height: 5rem;
+    border-radius: 5rem;
+}
