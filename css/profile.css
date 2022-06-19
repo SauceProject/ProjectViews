@@ -6,6 +6,40 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.logo{
+    color:#F6EE99;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+aside{
+    background-color: #143444;
+    color: #F6EE99;
+    grid-row: 1/-1;
+}
+.sidebar{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.sidebar a {
+    color: #F6EE99;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color: white;
+    font-weight: bold;
+}
+.sidebar li{
+    padding: 1rem;
+    cursor: pointer;
+}
+
 /*******NAVBAR*******/
 nav{
     display: flex;
@@ -29,20 +63,23 @@ nav input {
     border-radius: 1rem;
     border: #dfdcdc 1px solid;
 }
-nav i {
+.nav-icn {
     color: white;
     background-color:#143444;
     padding: 0.5rem;
     border-radius: 1.5rem;
 }
+.menu-icn{
+    cursor: pointer;
+    font-size: 1.3rem;    
+}
 /***MAIN ***/
-main {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 90%;
-    margin: 5% auto;
-    gap: 5%;
-    
+section{
+   display:  flex;
+   gap:10%;
+   width: 90%;
+   margin: 5% auto;
+  
 }
 .profile {
    
@@ -53,7 +90,8 @@ main {
     flex-direction: column;
     align-items: center;
     gap:4%;
-    color:#143444
+    color:#143444;
+    width: 50%;
 }
 .profile p {
     color: gray;
@@ -65,6 +103,7 @@ main {
 }
 .data{
     box-shadow: 2px 2px 8px #c1b9b9;
+    width: 50%;
 
 }
 .data ul {
